@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(248, 117, 161);
+  font-family: cursive;
+}
+.main {
+  background-color: yellow;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#total {
+  text-align: left;
+}
+#remaining {
+  text-align: right;
+}
+.text {
+  resize: none;
+  width: 350px;
+  height: 100px;
+  padding: 10px;
+}
+.counter {
+  display: flex;
+  justify-content: space-between;
+}
+#total {
+  color: blue;
+}
+#remaining {
+  color: red;
+}

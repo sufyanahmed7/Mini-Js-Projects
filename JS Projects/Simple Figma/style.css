@@ -1,0 +1,166 @@
+body{
+   font-family:sans-serif ;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(140, 0, 255), rgb(84, 42, 182));
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: red;
+}
+.hero-page{
+    height: 100vh;
+}
+.main-nav ul{
+    display: flex;
+
+}
+.main-nav li{
+    list-style: none;
+    padding: 10px;
+}
+.main-nav a{
+    text-decoration: none;
+    color:#FFFF;
+    font-size: 18px;
+}
+.main-nav a:hover{
+    color: rgb(243, 3, 3);
+}
+.main-nav h1 {
+    margin-left: 80px;
+    color: #FFFF;
+    font-weight: 700;
+}
+.main-nav button{
+    border-radius: 14px;
+    color: #FFFF;
+    background-color: #023047;
+    padding:0px 15px;
+    font-size: 15px;
+    border: 0px;
+}
+.main-nav button:hover{
+    background-color:#DA722C;
+    transition: 0.3s;
+}
+
+.list{
+    margin-right: 30px;
+}
+.nav-section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+
+}
+.nav-section h1{
+    font-weight: 900;
+}
+.hero-data{
+    margin-left: 40px;
+}
+.nav-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+.nav-section button{
+    background-color:#DA722C;
+    padding: 15px;
+    border: 0px;
+    border-radius: 20px;
+    color: #FFFF;
+    font-size: 15px;
+}
+.nav-section button:hover{
+    background-color: #943f06;
+    transition: 0.3s;
+}
+
+.list img{
+    display: none;
+}
+.testimonial-heading {
+    text-align: center;
+}
+.cards{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1{
+    width: 300px;
+    background-color: rgb(20, 11, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.card-1 p{
+    text-align: center;
+}
+.card-1 img{
+    width:150px;
+    height:200px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.testimonials{
+    background-color: orange;
+}
+.testimonial-heading h1{
+    color: white;
+    font-weight: 900;
+    background-color: black;
+}
+@media(max-width:786px){
+    .hero-image img{
+        display: none;
+    }
+    .hero-data h1 p{
+        width: 100%;
+    }
+    .heading h1{
+        margin: 30px;
+    }
+    .list ul{
+        display: none;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list img{
+        display:flex;
+        
+    }
+    .hero-data p{
+        line-height:25px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:350px) {
+    .hero-data {
+            margin-left: 5px;
+            text-align: center;
+    }
+    .card-1{
+        width: 200px;
+    }
+}

@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+    
+} 
+
+.Nav{
+    display: flex;
+        justify-content: space-between;
+    background-color: rgb(54, 39, 73);
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    color: white;
+    
+}
+.Nav ul{
+list-style-type: none;
+ display: flex;
+ padding :10px;
+justify-content: space-between; 
+}
+
+.Nav li{
+text-decoration: none;
+}
+.nav-child{
+    display:flex;
+}
+
+.Nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+}
+.Nav ul li a:hover{
+    color: red;
+}
+
+.top-container{
+    background-color: rgb(109, 119, 119);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(213, 243, 82);
+    font-size: 25px;
+
+}
+.top-container h2{
+    border: 4px solid black;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+}
+.para{
+    margin: 50px 5%;
+    text-align: center;
+    font-family: sans-serif;
+}

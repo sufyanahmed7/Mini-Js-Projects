@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Reviews</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  
+  <body>
+    <main>
+      <section class="container">
+        <h1>Our Reviews</h1>
+        <div class="underline">
+          <hr style="width: 50%" />
+        </div>
+      </section>
+      <!---Article-->
+      <article class="review">
+        <div class="profile">
+          <img src="person-1.jpeg" id="person-img" alt="" />
+        </div>
+        <h4 id="author">Sara Jones</h4>
+        <h5 id="job">Graphics Designer</h5>
+        <p id="about">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quibusdam vitae ea porro rerum impedit corrupti quae illo at, ipsum sit maiores tempora ratione consequuntur, itaque ullam iusto repellendus laborum!
+        </p>
+         <!-- prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn" id="prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="prev-btn" id="next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+           
+          </div>
+          <!-- random button -->
+          <button class="random-btn" id="random-btn">surprise me</button>
+        </div>
+      </article>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
