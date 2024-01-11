@@ -11,7 +11,7 @@ A code editor (Visual Studio Code, Sublime Text, Atom, etc.)
 Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-username/javascript-mini-projects.git
+git clone https://github.com/sufyanahmed7/Mini-Js-Projects
 cd javascript-mini-projects
 Explore the Projects
 Navigate to each project folder to find the respective code, instructions, and resources. Each project folder contains a README file providing details about the project, its purpose, and how to run it.
